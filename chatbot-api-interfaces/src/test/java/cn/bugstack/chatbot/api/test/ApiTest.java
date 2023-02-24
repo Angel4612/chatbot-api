@@ -28,7 +28,7 @@ public class ApiTest {
 
         HttpGet get = new HttpGet("https://api.zsxq.com/v2/groups/51112124845114/topics?scope=unanswered_questions&count=20");
         
-        get.addHeader("cookie", "zsxq_access_token=2943317A-0B1B-9CDB-A77C-7FF6F1A9BD38_D3ECDD20E6D92B25; zsxqsessionid=cc5d515619009acfba4fbd66aa1382bf; abtest_env=product; sensorsdata2015jssdkcross={\"distinct_id\":\"244145584441811\",\"first_id\":\"182abeb7574d85-08b401f76e7a108-26021d51-1327104-182abeb7575937\",\"props\":{\"$latest_traffic_source_type\":\"直接流量\",\"$latest_search_keyword\":\"未取到值_直接打开\",\"$latest_referrer\":\"\"},\"identities\":\"eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTgyYWJlYjc1NzRkODUtMDhiNDAxZjc2ZTdhMTA4LTI2MDIxZDUxLTEzMjcxMDQtMTgyYWJlYjc1NzU5MzciLCIkaWRlbnRpdHlfbG9naW5faWQiOiIyNDQxNDU1ODQ0NDE4MTEifQ==\",\"history_login_id\":{\"name\":\"$identity_login_id\",\"value\":\"244145584441811\"},\"$device_id\":\"182abeb7574d85-08b401f76e7a108-26021d51-1327104-182abeb7575937\"}; UM_distinctid=1867456ca6bad1-097368c829e829-26031951-2a3000-1867456ca6cdd8");
+        get.addHeader("cookie", "zsxq_access_token=2D5B7132-1A04-FFFD-88F9-45B7EB6A6FDD_D3ECDD20E6D92B25; zsxqsessionid=c43845cb041b0259c1fac61cfe0651b8; abtest_env=beta");
         get.addHeader("Content-Type", "application/json;charset=utf8");
 
         CloseableHttpResponse response = httpClient.execute(get);
